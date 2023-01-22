@@ -1,0 +1,20 @@
+; file ps.as 
+
+.entry ABC
+.extern DD
+ add r2,STR 
+mov S1.2, r3 
+.entry LOOP 
+ 	prn #-5 
+ 	sub r1  	,r6
+ 	inc DD
+END: hlt 
+; hi there how are you
+STR: .string "abcdef"
+ACB: .data  +6  ,31	, -15
+K: .data 22 
+ 	prn #-5 
+ 	sub r1  	,r6
+ 	inc DD
+S1: .struct 2, "hellow" 
+
